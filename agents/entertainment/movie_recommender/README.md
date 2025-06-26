@@ -1,4 +1,4 @@
-# 🎬 AI Movie Recommender using PilottAI + Streamlit
+# 🎬 Movie Recommender using PilottAI + Streamlit
 
 This project is an interactive **Streamlit** web app that uses [PilottAI](https://pilottai.com/) to recommend movies based on **user-selected genre and language**. The app utilizes a Large Language Model (LLM) via OpenAI to generate 5 relevant movie suggestions.
 
@@ -27,8 +27,8 @@ This project is an interactive **Streamlit** web app that uses [PilottAI](https:
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/movie-recommender-ai.git
-cd movie-recommender-ai
+git clone https://github.com/pygig/pilottai-examples.git
+cd movie_recommender
 
 ### 2. Create & Activate a Virtual Environment (Recommended)
 
