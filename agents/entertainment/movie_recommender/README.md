@@ -68,7 +68,13 @@ The results are displayed in a user-friendly Streamlit UI.
 
 ## 🛠️ Project Structure
 
-<pre lang="markdown"> ### 🛠️ Project Structure ```bash ├── .env # Environment variables ├── requirements.txt # Python dependencies └── README.md # Project documentation └── movie_recommender.py # Main Streamlit app``` </pre>
+```
+movie_recommnder/
+├── .env/                           # Environment variables
+├── movie_recommender.py/           # Main Streamlit app
+├── requirements.txt/               # Python dependencies
+├── README.md/                      # Project documentation
+```
 
 ## 🧩 Future Improvements (Ideas)
 Add custom user prompt input
