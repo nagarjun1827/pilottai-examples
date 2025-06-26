@@ -69,7 +69,7 @@ The results are displayed in a user-friendly Streamlit UI.
 ## 🛠️ Project Structure
 
 ```
-movie_recommnder/
+movie_recommender/
 ├── .env/                           # Environment variables
 ├── movie_recommender.py/           # Main Streamlit app
 ├── requirements.txt/               # Python dependencies
