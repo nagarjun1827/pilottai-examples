@@ -27,7 +27,7 @@ This project is an interactive **Streamlit** web app that uses [PilottAI](https:
 
 ### 1. Clone the Repository
 
-git clone https://github.com/pygig/pilottai-examples.git
+git clone https://github.com/pygig/pilottai-examples.git <br>
 cd movie_recommender
 
 ### 2. Create & Activate a Virtual Environment (Recommended)
