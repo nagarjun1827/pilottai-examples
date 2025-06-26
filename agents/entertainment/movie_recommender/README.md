@@ -32,15 +32,15 @@ cd movie_recommender
 
 ### 2. Create & Activate a Virtual Environment (Recommended)
 
-python -m venv venv (On Windows)
-venv\Scripts\activate (On macOS/Linux)
-source venv/bin/activate
+python -m venv venv (On Windows) <br>
+venv\Scripts\activate (On macOS/Linux) <br>
+source venv/bin/activate <br>
 
 ### 3. Install Dependencies
 
 pip install -r requirements.txt
 
-Note: If requirements.txt is missing, you can install manually:
+**Note:** If requirements.txt is missing, you can install manually: <rb>
 pip install streamlit python-dotenv pilottai
 
 ### 4. Configure Environment Variables
