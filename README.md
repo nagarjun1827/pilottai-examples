@@ -20,8 +20,8 @@ Includes a set of **ready-made prompts** categorized by domain. These prompts ca
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pilottai-examples.git
-   cd marketplace
+   git clone https://github.com/pygig/pilottai-examples.git
+   ```
 2. Browse the agents/ and prompt_library/ directories to explore the available resources.
 
 ## 🤝 Contributions
