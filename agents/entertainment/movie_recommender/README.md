@@ -56,7 +56,7 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 streamlit run app.py
 
-##🧠 How it Works
+## 🧠 How it Works
 You choose a genre (e.g., Action, Comedy) and a language (e.g., Kannada, Hindi).
 
 A PilottAI agent is created with a task like:
@@ -75,15 +75,6 @@ movie_recommender/
 ├── requirements.txt/               # Python dependencies
 ├── README.md/                      # Project documentation
 ```
-
-## 🧩 Future Improvements (Ideas)
-Add custom user prompt input
-
-Allow multi-genre or multi-language selection
-
-Show brief descriptions/synopsis for recommended movies
-
-Cache LLM responses for repeat requests
 
 ## 📝 License
 This project is open-source and free to use. You may add a license (MIT, Apache 2.0, etc.) as per your needs.
