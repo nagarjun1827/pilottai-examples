@@ -1,4 +1,4 @@
-# 🎬 AI Movie Recommender using PilottAI + Streamlit
+# 🎬 Movie Recommender using PilottAI + Streamlit
 
 This project is an interactive **Streamlit** web app that uses [PilottAI](https://pilottai.com/) to recommend movies based on **user-selected genre and language**. The app utilizes a Large Language Model (LLM) via OpenAI to generate 5 relevant movie suggestions.
 
@@ -27,20 +27,20 @@ This project is an interactive **Streamlit** web app that uses [PilottAI](https:
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/movie-recommender-ai.git
-cd movie-recommender-ai
+git clone https://github.com/pygig/pilottai-examples.git <br>
+cd movie_recommender
 
 ### 2. Create & Activate a Virtual Environment (Recommended)
 
-python -m venv venv (On Windows)
-venv\Scripts\activate (On macOS/Linux)
-source venv/bin/activate
+python -m venv venv (On Windows) <br>
+venv\Scripts\activate (On macOS/Linux) <br>
+source venv/bin/activate <br>
 
 ### 3. Install Dependencies
 
 pip install -r requirements.txt
 
-Note: If requirements.txt is missing, you can install manually:
+**Note:** If requirements.txt is missing, you can install manually: <rb>
 pip install streamlit python-dotenv pilottai
 
 ### 4. Configure Environment Variables
@@ -56,7 +56,7 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 streamlit run app.py
 
-##🧠 How it Works
+## 🧠 How it Works
 You choose a genre (e.g., Action, Comedy) and a language (e.g., Kannada, Hindi).
 
 A PilottAI agent is created with a task like:
@@ -68,19 +68,13 @@ The results are displayed in a user-friendly Streamlit UI.
 
 ## 🛠️ Project Structure
 
-├── app.py           # Main Streamlit app
-├── .env             # Environment 
-├── requirements.txt # Python dependencies
-└── README.md        # Project 
-
-## 🧩 Future Improvements (Ideas)
-Add custom user prompt input
-
-Allow multi-genre or multi-language selection
-
-Show brief descriptions/synopsis for recommended movies
-
-Cache LLM responses for repeat requests
+```
+movie_recommender/
+├── .env/                           # Environment variables
+├── movie_recommender.py/           # Main Streamlit app
+├── requirements.txt/               # Python dependencies
+├── README.md/                      # Project documentation
+```
 
 ## 📝 License
 This project is open-source and free to use. You may add a license (MIT, Apache 2.0, etc.) as per your needs.

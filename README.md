@@ -1,4 +1,4 @@
-# 🧠 PilottAI Marketplace
+# 🧠 PilottAI Examples
 
 This repository contains ready-to-run code examples and tutorials showcasing **PilottAI** implementations across various use cases. It serves as a collection of reusable agents and prompt templates to accelerate development and experimentation with PilottAI.
 
@@ -6,7 +6,7 @@ This repository contains ready-to-run code examples and tutorials showcasing **P
 
 ## 📂 Repository Overview
 
-The **Marketplace** is organized into two main folders:
+The Repository is organized into two main folders:
 
 ### 🧩 `agents/`
 Contains **pre-built PilottAI agents** designed for various domains and applications. Each agent is self-contained and demonstrates how PilottAI can be applied in different contexts.
@@ -20,8 +20,8 @@ Includes a set of **ready-made prompts** categorized by domain. These prompts ca
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pilottai-examples.git
-   cd marketplace
+   git clone https://github.com/pygig/pilottai-examples.git
+   ```
 2. Browse the agents/ and prompt_library/ directories to explore the available resources.
 
 ## 🤝 Contributions
